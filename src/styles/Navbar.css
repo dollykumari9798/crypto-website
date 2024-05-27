@@ -1,0 +1,46 @@
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.5rem;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.nv-middle {
+  font-family: "Sans Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #898989;
+}
+.nv-right {
+  font-family: "Sans Serif";
+  font-style: normal;
+  font-weight: 400;
+  color: #898989;
+  z-index: 99;
+}
+.nv-right ul li {
+  background: #252422;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+.nv-left {
+  font-size: 2rem;
+  color: #898989;
+  line-height: 2rem;
+  padding: 1.5rem;
+}
+.NavBtn {
+  color: #fff;
+  text-decoration: none;
+}

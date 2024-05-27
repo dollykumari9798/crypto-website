@@ -1,0 +1,29 @@
+.why {
+  position: relative;
+  height: 100vh;
+  /* scroll-snap-align: start; */
+  background: #252422;
+  color: #fff;
+}
+.why::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  clip-path: polygon(0 0, 100% 100%, 0 100%);
+  background: #f3eee2;
+  height: 10rem;
+  width: 100%;
+}
+.why .waveContainer {
+  position: absolute;
+  top: -9rem;
+  width: 100%;
+}
+.why .whyParent {
+  padding: 4rem 10rem;
+  padding-top: 0;
+}
+.why .whyParent .Sc {
+  width: 70%;
+  padding: 0 5rem;
+}

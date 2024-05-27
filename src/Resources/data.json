@@ -1,0 +1,61 @@
+{
+  "leadingText": "All about",
+  "slides": [
+    {
+      "introline": "dogs",
+      "id": "dogs",
+      "content": {
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg",
+        "copy": "Dog ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    },
+    {
+      "introline": "elephants",
+      "id": "elephants",
+      "content": {
+        "image": "https://files.worldwildlife.org/wwfcmsprod/images/African_Elephant_Kenya_112367/story_full_width/qxyqxqjtu_WW187785.jpg",
+        "copy": "Elephant ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    },
+    {
+      "introline": "bears",
+      "id": "bears",
+      "content": {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Ours_brun_parcanimalierpyrenees_1.jpg",
+        "copy": "Bears ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    },
+    {
+      "introline": "cats",
+      "id": "cats",
+      "content": {
+        "image": "https://i.natgeofe.com/n/46b07b5e-1264-42e1-ae4b-8a021226e2d0/domestic-cat_thumb.jpg",
+        "copy": "Cats ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    },
+    {
+      "introline": "giraffes",
+      "id": "giraffes",
+      "content": {
+        "image": "https://cdn-acgla.nitrocdn.com/bvIhcJyiWKFqlMsfAAXRLitDZjWdRlLX/assets/static/optimized/rev-5131b73/wp-content/uploads/2020/11/Giraffe.jpg",
+        "copy": "Giraffes ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    },
+    {
+      "introline": "owls",
+      "id": "owls",
+      "content": {
+        "image": "https://www.treehugger.com/thmb/HHs4-767tiyW_RuYUS48a_WYAtk=/1885x1414/smart/filters:no_upscale()/GettyImages-166152657-cb61ca0fd49e453cb4f1a60b50d281e7.jpg",
+        "copy": "Owls ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    },
+    {
+      "introline": "horses",
+      "id": "horses",
+      "content": {
+        "image": "https://cdn-acgla.nitrocdn.com/bvIhcJyiWKFqlMsfAAXRLitDZjWdRlLX/assets/static/optimized/rev-5131b73/wp-content/uploads/2020/11/Giraffe.jpg",
+        "copy": "Horses ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan est ornare, ultricies erat a, dapibus lectus."
+      }
+    }
+  ]
+}

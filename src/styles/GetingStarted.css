@@ -1,0 +1,32 @@
+.GetStarted {
+  height: 100vh;
+  /* scroll-snap-align: start; */
+  /* padding: 1rem 10rem; */
+  position: relative;
+  background: #252422;
+  color:#fff;
+}
+.GetStarted::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  background: #f3eee2;
+  height: 5rem;
+  width: 100%;
+}
+.gsParent{
+    padding: 1rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.gsParent .gsText{
+    width: 40%;
+}
+.gsBtnParent{
+    display: flex;flex-direction: row;
+
+    column-gap: 2rem;
+}

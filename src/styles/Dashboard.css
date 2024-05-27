@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.dashboard {
+  padding: 2rem;
+  color: #fffcf2;
+  font-family: "Roboto Mono", monospace;
+  height: 91%;
+}
+.dashboard .Dnav,
+.Dbody {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1.2fr;
+  font-size: 2.5rem;
+  margin: 1% 0;
+  position: relative;
+  column-gap: 2.5%;
+}
+.dashboard .Dnav .user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: -50%;
+}
+.dashboard .Dnav .user .userImg {
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+.dashboard .Dnav .user p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.dashboard .Dbody {
+  font-size: 1.5rem;
+  height: 100%;
+  font-family: "Exo 2", sans-serif;
+}
+.dashboard .Dbody .dbMenu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  padding: 0;
+  /* position: relative; */
+  z-index: 1;
+  background: #403d39;
+}
+.dashboard .Dbody .dbMenu li {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0 0.5rem 2rem;
+  cursor: pointer;
+}
+.dashboard .Dbody .dbMenu li:hover {
+  background: rgba(163, 163, 163, 0.296);
+  border-radius: 1rem;
+}
+.dashboard .Dbody .dbMenu .activeDbMenu:hover {
+  background: #eb5e28;
+}
+.dashboard .Dbody .dbHolder {
+  height: 80%;
+}
+.dashboard .Dbody .dbCard {
+  background: #252422;
+  border-radius: 2rem;
+  padding: 2rem;
+  /* height: 100%; */
+}
+.activeDbMenu {
+  background: #eb5e28;
+  border-radius: 1rem;
+  transition: 0.5s all;
+  /* animation: ; */
+}
+.dbAssets {
+  height: 100%;
+  z-index: 1;
+  background: #403d39;
+}
+.dbAssets h1 {
+  background: #403d39;
+  margin: 0;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.dbAssets .Acards img {
+  width: 100%;
+}
+.dbAssets .Acards {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.dbAssets .Acards .cardVal {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 1rem;
+}
+.Uparrow {
+  margin: auto;
+  width: fit-content;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+  border: 1px solid #fffcf2;
+}
+.cardParent {
+  overflow-y: scroll;
+  height: 38%;
+  padding-right: 1rem;
+  margin: 1rem 0;
+}
+
+.cardParent::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f500;
+  border-radius: 10px;
+}
+
+.cardParent::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f500;
+  border-radius: 10px;
+}
+
+.cardParent::-webkit-scrollbar-thumb {
+  background-color: #f90;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 10px;
+}
+.moveL2R {
+  animation: moveL2R 0.3s linear;
+}
+@keyframes moveL2R {
+  0% {
+    transform: translateX(-20%);
+    /* opacity: 0; */
+  }
+  100%{
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+.moveR2L {
+  animation: moveR2L 0.3s linear;
+}
+@keyframes moveR2L {
+  0% {
+    transform: translateX(20%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}

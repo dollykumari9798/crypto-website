@@ -1,0 +1,81 @@
+.userTable .utSec1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 4rem;
+}
+.userTable.udPadding {
+  padding: 0.8rem;
+}
+.userTable .utSec1 .uts1L .uUserName {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+.uts1R p {
+  margin: 0.5rem 0;
+}
+.adminDashParent .adminNav h1.mb-2,
+.adminBody h1.mb-2 {
+  margin-bottom: 2rem;
+}
+.userTable .utSec2 > div p {
+  margin: 0.5rem 0 0.5rem 0;
+  font-weight: bolder;
+}
+.userTable .utSec2 > div > div {
+  display: grid;
+}
+.userTable .utSec2 .uts2LoginDetails .uts2ldContent {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.5rem;
+}
+.userTable .utSec2 > div {
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.5rem;
+}
+.userTable .utSec2 .uts2KYC .uts2kycContent {
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  padding-bottom: 0;
+}
+.userTable .utSec2 .uts2KYC .uts2kycContent .adminBtn {
+  margin: 0;
+  position: relative;
+  top: -0.5rem;
+}
+.userTable .utSec2 .uts2LastLogin .uts2llContent {
+  grid-template-columns: repeat(2, 1fr);
+}
+.utSec3 p{
+  text-align: center;
+}
+.utSec3 .uts3Btns{
+  display: flex;
+  justify-content: center;
+}
+.utSec3 .uts3Btns .adminBtn {
+  margin: 0 0.5rem;
+}
+.uts2kycContent span {
+  position: relative;
+  cursor: pointer;
+}
+.uts2kycContent .adminBtn{
+    text-align: center;
+}
+.uts2kycContent span:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.uts2kycContent span:hover {
+    text-decoration: underline;
+  /* width: 100%;
+  left: 0; */
+}

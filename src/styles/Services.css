@@ -1,0 +1,125 @@
+.services {
+  padding: 4rem 10rem;
+  padding-top: 0;
+  /* height: 100vh; */
+  padding-bottom: 0;
+  /* scroll-snap-align: start; */
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.ServiceCardParent {
+  padding: 0 5rem;
+  width: 70%;
+}
+.Sc {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  height: fit-content;
+  margin-bottom: 10rem;
+  position: relative;
+}
+.SCText {
+  width: 70%;
+  margin-top: 3rem;
+  font-size: 1.1rem;
+}
+.SCImg {
+  position: relative;
+}
+.SCImg img:nth-child(1) {
+  height: 20rem;
+  position: absolute;
+  top: 0rem;
+  left: -3rem;
+}
+.SCImg img:nth-child(2) {
+  height: 25rem;
+  position: absolute;
+  top: 0rem;
+  left: -5rem;
+  z-index: 99;
+}
+.ServiceBtn {
+  background-color: #eb5e28;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.rev {
+  grid-template-columns: 1fr 8fr;
+}
+.rev .SCText {
+  position: relative;
+  left: 25rem;
+}
+
+.Sc .SCImg .Scoins {
+  animation: motionR 2.5s linear;
+  animation-delay: 1.2s;
+  z-index: 2;
+}
+@keyframes motionR {
+  0% {
+    left: -60rem;
+  }
+  70% {
+    left: -25rem;
+  }
+  100% {
+    left: -2rem;
+  }
+}
+.rev .SCImg .Scoins {
+  animation: motionL 2.5s linear;
+  animation-delay: 1.2s;
+  z-index: 2;
+}
+@keyframes motionL {
+  0% {
+    left: 60rem;
+  }
+  70% {
+    left: 25rem;
+  }
+  100% {
+    left: 2rem;
+  }
+}
+.STextCover {
+  width: 0%;
+  height: 80%;
+  position: absolute;
+  top: 25%;
+  background: #f3eee2;
+}
+
+.Sc .STextCover {
+  left: 0%;
+  width: 0%;
+  animation: moveRight 2.4s linear;
+  animation-delay: 1.2s;
+  transform: rotateZ(180deg);
+}
+@keyframes moveRight {
+  from {
+    width: 70%;
+    left: 0%;
+  }
+  to {
+    left: 70%;
+  }
+}
+.rev .STextCover {
+  left: 50%;
+  animation: moveLeft 2.4s linear;
+  animation-delay: 1.2s;
+}
+@keyframes moveLeft {
+  from {
+    width: 70%;
+  }
+  to {
+    width: 0%;
+  }
+}

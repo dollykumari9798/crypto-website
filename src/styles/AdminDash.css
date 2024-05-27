@@ -1,0 +1,62 @@
+.adminDashParent {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  column-gap: 1rem;
+  background: #f0f1f5;
+  padding: 1rem;
+  font-family: "Roboto Mono", monospace;
+  height: 95.5vh;
+}
+.adminDashParent .adminNav {
+  background: linear-gradient(180deg, #404040 0%, #0c0c0c 100%);
+  border-radius: 1rem;
+  color: #fff;
+  padding:0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.adminDashParent .adminNav h1{
+    margin:1rem 0 3rem 1rem;
+    font-weight: 300;
+}
+.adminDashParent .adminBody{
+    padding-right: 2rem;
+}
+.adminDashParent .adminBody h1{
+    margin:1rem 0 0.5rem 0rem;
+    font-weight: 300;
+}
+.adminBtn {
+  background-color: #eb5e28;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  color: #fff;
+  text-decoration: none;
+  margin: 0.5rem 0;
+  text-transform: uppercase ;
+}
+.userTable{
+    background: #fff;
+    height: 80%;
+    border-radius: 0.5rem;
+    margin-top: 0.85rem;
+    padding:0 1.5rem;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.5); ;
+}
+.userItem{
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #000;
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr;
+}
+.userSearch{
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    letter-spacing: 0.08rem;
+}
+.listShow{
+  display: none;
+}

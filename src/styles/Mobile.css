@@ -1,0 +1,143 @@
+.mobile {
+  height: 100vh;
+  /* scroll-snap-align: start; */
+  color: #fff;
+  background: #252422;
+  position: relative;
+  top: -0.1rem;
+}
+.mobile::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  clip-path: polygon(0 0, 100% 100%, 0 100%);
+  background: #f3eee2;
+  height: 5rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+.mobile .hTitle {
+  text-align: center;
+  font-size: 3rem;
+}
+.mvParent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5rem;
+  padding: 0 10rem;
+}
+.mCard {
+  background: #f3eee2;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #252422;
+}
+.mCard .mcHeader {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mcBody p {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+}
+.mbField {
+  color: #f3eee2;
+  background: #252422;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.8rem;
+}
+.mcBody .mbField .mfIcon {
+  padding: 0.5rem 1rem;
+  border-left: 1px solid #f3eee2;
+}
+.mcBody .mbField .mfText {
+  padding: 0.5rem 1rem;
+  border-left: 1px solid #f3eee2;
+}
+.mcBody .mbBtn {
+  background-color: #eb5e28;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+.mcBody .mc2 {
+  width: 100%;
+  padding: 0.5rem;
+}
+.mcBody .mc2 p {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0.2rem;
+}
+.c2Text {
+  color: #47cc54;
+  border: none;
+}
+.c2Icon {
+  height: 2rem;
+}
+.qrParent {
+  width: fit-content;
+  padding: 0.5rem;
+  margin: 1rem auto;
+}
+.qr {
+  height: 14rem;
+}
+.mcBody .c3Text {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+.Cl{
+  opacity: 1;
+  animation: reveal 1s linear;
+  animation-delay: 7s;
+  z-index: 1;
+}
+@keyframes reveal {
+  0%{
+    opacity:0;
+    transform: translateX(20rem);
+  }
+  100%{
+    opacity:1;
+    transform:translateX(0rem);
+  }
+}
+.Cr{
+  opacity: 1;
+  animation: reveal1 1s linear;
+  animation-delay: 7s;
+  z-index: 1;
+}
+@keyframes reveal1 {
+  0%{
+    opacity:0;
+    transform: translateX(-20rem);
+  }
+  100%{
+    opacity:1;
+    transform:translateX(0rem);
+  }
+}
+.Cc{
+  opacity:1;
+  z-index: 3;
+}

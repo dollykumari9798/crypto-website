@@ -1,0 +1,27 @@
+.dashGift {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  column-gap: 5rem;
+}
+
+.dashGift .shelf {
+  position: relative;
+  text-align: center;
+  height: 10rem;
+}
+.dashGift .shelf .shelfImg {
+  width: 90%;
+  position: relative;
+  bottom: -4rem;
+  z-index: 1;
+}
+.shelf .giftCard {
+  position: relative;
+  width: 25%;
+  z-index: 2;
+}
+.g1 {  
+  top: -50%;
+  left: 2%;
+}

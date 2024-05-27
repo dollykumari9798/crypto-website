@@ -1,0 +1,40 @@
+.faq {
+  height: 100vh;
+  /* scroll-snap-align: start; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faq .accordian {
+  width: 70%;
+}
+.item {
+  /* background: #000; */
+  margin-bottom: 0.2rem;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid black;
+}
+.item:hover{
+  color: rgba(84, 84, 84, 0.797);
+}
+.item .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.item .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.item .content.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+    color: rgba(84, 84, 84, 0.797);
+}

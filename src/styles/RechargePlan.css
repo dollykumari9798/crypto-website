@@ -1,0 +1,74 @@
+.rechargePlan {
+  padding: 2rem;
+  background: #252422;
+  border-radius: 2rem;
+  margin: 0;
+  padding-bottom: 3rem;
+}
+.rechargePlan p {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 2rem;
+  font-family: "Roboto Mono";
+}
+.selector {
+  background: #fffcf2;
+  color: #eb5e28;
+  width: 40%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.selector p {
+  margin: 0;
+}
+.numberField {
+  background: #eb5e28;
+  width: 40%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: row;
+}
+.numberField .countrySelector {
+  outline: none;
+  border: none;
+  background-color: #ff8050;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  color: #fff;
+}
+.numberField .select > option:hover {
+  color: black !important;
+  background-color: #252422 !important;
+}
+.numberField .rechargeNum {
+  outline: none;
+  border: none;
+  padding: 0 0.5rem;
+  margin-left: 0.5rem;
+  border-left: 1px solid #fffcf2;
+  background: transparent;
+  color: #fffcf2;
+  font-size: 1rem;
+}
+.rechargeNum::-webkit-outer-spin-button,
+.rechargeNum::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.rpBody{
+    text-align: center;
+}
+.rpBTN{
+    background-color: #eb5e28;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 1rem;
+}

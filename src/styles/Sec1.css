@@ -1,0 +1,91 @@
+.Sec1 {
+  /* background: #f3eee2; */
+  position: relative;
+  overflow: hidden;
+  height: fit-content;
+  height: 100vh;
+  /* scroll-snap-align: start; */
+  z-index: 2;
+}
+.SmallCircle {
+  position: absolute;
+  height: 6rem;
+  width: 6rem;
+  background-color: #ff7c4a;
+  border-radius: 50%;
+  z-index: -1;
+  top: 13.8rem;
+  left: 7rem;
+}
+.LargeCircle {
+  position: absolute;
+  height: 46rem;
+  width: 46rem;
+  background-color: #fb8d63;
+  border-radius: 50%;
+  top: -8rem;
+  z-index: 0;
+  right: -8rem;
+}
+.hContent {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 10rem;
+  justify-content: space-between;
+}
+/* .hImg {
+  z-index: 2;
+}
+.hImg img {
+  height: 20rem;
+  width: 20rem;
+  padding-top: 2rem;
+} */
+.hImg {
+  position: relative;
+}
+.hImg img:nth-child(1) {
+  height: 13rem;
+  position: absolute;
+  /* top: 7rem;
+  left: -12rem; */
+}
+.hImg img:nth-child(2) {
+  height: 25rem;
+  position: absolute;
+  top: 0rem;
+  left: -18rem;
+}
+.hText {
+  width: 40%;
+  z-index: 99;
+  padding-top: 5rem;
+}
+.hTitle {
+  font-weight: 400;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  z-index: 10;
+  text-shadow: 2px 2px rgba(84, 84, 84, 0.297);
+  font-family: 'Aldrich', sans-serif;
+}
+.waveContainer {
+  position: absolute;
+  bottom: -0.5rem;
+  width: 100%;
+}
+.coins{
+  position: absolute;
+  z-index: 1;
+  animation: enter 1s linear;
+}
+@keyframes enter {
+  0%{
+    transform: translateX(30rem);
+  }
+  100%{
+    transform: translateX(0rem);
+    
+  }
+  
+}
